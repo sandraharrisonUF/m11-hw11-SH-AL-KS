@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-.header__container, .footer__container, .content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3, .content__img-card__title--box-1 {
+.header__container, .footer__container, .content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3, .content__img-card__title--box-1, .content__img-card__text-reference--box-1 {
   background-color: rgb(240, 210, 218);
   color: rgb(206, 54, 67);
 }
@@ -52,28 +52,46 @@ body {
   height: auto;
   width: 900px;
 }
+.content__plot-img-card__img--box-1, .content__plot-img-card__img--box-2, .content__plot-img-card__img--box-3 {
+  background-color: none;
+  height: auto;
+  width: 300px;
+}
+.content__plot-img-card__img--box-1 {
+  align-items: left;
+  flex-direction: column;
+}
+.content__plot-img-card__img--box-2 {
+  align-items: center;
+  flex-direction: column;
+}
+.content__plot-img-card__img--box-3 {
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content:end
+}
 .content__img-card__title--box-1 {
   font-size: 1.5em;
   text-align: center;
   padding: 25px 25px;
 }
-.content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3 {
+.content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3, .content__img-card__text-reference--box-1 {
   padding: 0 25px;
   font-size: 1em;
 }
-.content__img-card__title--box-1, .content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3 {
+.content__img-card__title--box-1, .content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3, .content__img-card__text-reference--box-1 {
   width: 850px;
 }
-.content__img-card__text--box-1, .content__img-card__text--box-2 {
+.content__img-card__text--box-1, .content__img-card__text--box-2, .content__img-card__text--box-3 {
   text-indent: 50px;
 }
-.content__img-card__text--box-1 {
+.content__img-card__text--box-1, .content__img-card__text--box-2 {
   padding-bottom: 5px;
 }
-.content__img-card__text--box-2 {
+.content__img-card__text--box-3 {
   padding-bottom: 30px;
 }
-.content__img-card__text--box-3 {
+.content__img-card__text-reference--box-1 {
   font-style: italic;
   text-indent: none;
   padding-bottom: 35px;
