@@ -104,6 +104,11 @@ body {
   margin-top: auto;
   font-size: 1em;
 }
+.quotelist {
+  background-color: rgb(200, 126, 141);
+  color: rgb(206, 54, 67);
+  
+}
 
 @media screen and (min-width: 501) and (max-width: 1024px) {
   .header__container, .footer__container, .content--box-1 {
