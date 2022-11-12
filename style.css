@@ -135,4 +135,9 @@ body {
   .header__container {
    width: 95%; 
   }
+  content__img-card__text--box-1, content__img-card__text--box-2, content__img-card__text-reference--box-1 {
+   padding: 16px 24px; 
+    flex-direction: column;
+    font-size: 18px;
+  }
 }
