@@ -111,10 +111,16 @@ body {
     text-align: center;
     padding: 16px 24px;
   }
+  content__img-card__img--box-1 {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 500px) {
   .header__container, .footer__container, .content--box-1 {
     background-color: rgb(238, 149, 173);
     text-align: center;
     padding: 16px 24px;}
+  content__img-card__img--box-1 {
+    width: 95%;
+  }
 }
