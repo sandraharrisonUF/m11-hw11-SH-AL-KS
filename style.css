@@ -129,4 +129,10 @@ body {
   content__img-card__img--box-1 {
     width: 95%;
   }
+  content__img-card--container {
+    width: 90%;
+  }
+  .header__container {
+   width: 50%; 
+  }
 }
